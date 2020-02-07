@@ -1,4 +1,4 @@
-You can manipulate your GitHub label with this cli.
+You can operate your GitHub label with this cli.
 
 # Setting
 
@@ -20,7 +20,7 @@ type Setting = {
 };
 ```
 
-# Manipulations
+# Operations
 
 ## Create
 
@@ -36,18 +36,18 @@ type LabelParams = {
 };
 ```
 
-MANIPULATION environment variable is `create`.
+OPERATION environment variable is `create`.
 
 ## List
 
-MANIPULATION environment variable is `list`.
+OPERATION environment variable is `list`.
 
 # How to execute
 
 If one of your repositories is in private, you have to give an AUTH_KEY environment variable.
 
-You can controll your manipulation by MANIPULATION environment variable.
+You can controll your operation by OPERATION environment variable.
 
 ```
-AUTH_KEY=fooooobarrrrrrrrrr MANIPULATION=list npm start
+AUTH_KEY=fooooobarrrrrrrrrr OPERATION=list npm start
 ```
